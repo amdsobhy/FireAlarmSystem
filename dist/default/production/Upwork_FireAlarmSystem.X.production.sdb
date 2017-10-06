@@ -1,0 +1,151 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F676 ]
+[d frameptr 6 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"25 D:\Projects\Upwork_FireAlarmSystem.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"141
+[v _ISR ISR `II(v  1 e 1 0 ]
+[s S159 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"173 D:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f676.h
+[u S166 . 1 `S159 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES166  1 e 1 @5 ]
+"207
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S176 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+]
+"222
+[u S183 . 1 `S176 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES183  1 e 1 @7 ]
+[s S105 . 1 `uc 1 RAIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RAIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"298
+[s S114 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S119 . 1 `S105 1 . 1 0 `S114 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES119  1 e 1 @11 ]
+[s S193 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 CMIF 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 EEIF 1 0 :1:7 
+]
+"370
+[s S200 . 1 `uc 1 T1IF 1 0 :1:0 
+]
+[u S202 . 1 `S193 1 . 1 0 `S200 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES202  1 e 1 @12 ]
+"399
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+[s S78 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1GE 1 0 :1:6 
+]
+"437
+[s S85 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+]
+[u S89 . 1 `S78 1 . 1 0 `S85 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES89  1 e 1 @16 ]
+[s S19 . 1 `uc 1 CM 1 0 :3:0 
+`uc 1 CIS 1 0 :1:3 
+`uc 1 CINV 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 COUT 1 0 :1:6 
+]
+"500
+[s S25 . 1 `uc 1 CM0 1 0 :1:0 
+`uc 1 CM1 1 0 :1:1 
+`uc 1 CM2 1 0 :1:2 
+]
+[u S29 . 1 `S19 1 . 1 0 `S25 1 . 1 0 ]
+[v _CMCONbits CMCONbits `VES29  1 e 1 @25 ]
+[s S46 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nRAPU 1 0 :1:7 
+]
+"656
+[s S53 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 nGPPU 1 0 :1:7 
+]
+[u S59 . 1 `S46 1 . 1 0 `S53 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES59  1 e 1 @129 ]
+"710
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"759
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+[s S137 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 CMIE 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 EEIE 1 0 :1:7 
+]
+"826
+[s S144 . 1 `uc 1 T1IE 1 0 :1:0 
+]
+[u S146 . 1 `S137 1 . 1 0 `S144 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES146  1 e 1 @140 ]
+"947
+[v _ANSEL ANSEL `VEuc  1 e 1 @145 ]
+"1008
+[v _WPUA WPUA `VEuc  1 e 1 @149 ]
+"23 D:\Projects\Upwork_FireAlarmSystem.X\main.c
+[v _ui16TickMs ui16TickMs `VEui  1 e 2 0 ]
+"25
+[v _main main `(v  1 e 1 0 ]
+{
+"27
+[v main@ui16SwitchTimer ui16SwitchTimer `ui  1 a 2 11 ]
+"28
+[v main@ui16BlinkTimer ui16BlinkTimer `ui  1 a 2 8 ]
+"29
+[v main@bFirstEntry bFirstEntry `uc  1 a 1 10 ]
+"139
+} 0
+"141
+[v _ISR ISR `II(v  1 e 1 0 ]
+{
+"162
+} 0
